@@ -1,0 +1,219 @@
+@charset "UTF-8";
+#app {
+  position: relative;
+}
+
+.header-img {
+  min-height: 700px;
+  background: url("../img/img4.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.tabs {
+  background: #fff;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.tabs .tabs-menu .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tabs .tabs-menu .nav-menu .nav-menu-item {
+  color: #8E3632;
+}
+
+.tabs .tabs-menu .nav-menu .nav-menu-item a {
+  color: #000000;
+  fill: #000000;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  position: relative;
+}
+
+.tabs .tabs-menu .nav-menu .nav-menu-item a:hover {
+  color: #8E3632;
+}
+
+.tabs .tabs-menu .nav-menu .nav-menu-item a:hover::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #8E3632;
+}
+
+.tabs .tabs-menu .nav-menu .nav-menu-item .first-item {
+  color: #8E3632;
+}
+
+.tabs .tabs-menu .nav-menu .nav-menu-item .first-item::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #8E3632;
+}
+
+article .panel-img1 {
+  padding-top: 100%;
+  background: url("../img/img2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+article .panel-img2 {
+  padding-top: 100%;
+  background: url("../img/img3.jpeg") center center no-repeat;
+  background-size: cover;
+}
+
+article .panel-img3 {
+  padding-top: 100%;
+  background: url("../img/img4.jpeg") center center no-repeat;
+  background-size: cover;
+}
+
+article .panel-img4 {
+  padding-top: 100%;
+  background: url("../img/弗孔小人.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+article .content {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article .content .left-content {
+  padding: 20px 0;
+  text-align: center;
+  color: #4e403f;
+  font-family: "Roboto", Sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  padding-right: 0.0649%;
+}
+
+article .content .right-content {
+  padding: 20px 0;
+}
+
+article .content .right-content p {
+  text-align: justify;
+  color: #8E362E;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0.7em;
+}
+
+article .content .right-content .article-content {
+  text-align: justify;
+  color: #8E362E;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+footer {
+  text-align: center;
+  color: #8E362E;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0.7em;
+  padding: 100px 0;
+}
+
+.center_hor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .tabs-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tabs-dropdown,
+  .tabs-dropdown-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .panel-img1 {
+    height: 100vh;
+    min-height: 1200px;
+    background-attachment: fixed !important;
+  }
+  .panel-img2 {
+    height: 100vh;
+    min-height: 1200px;
+    background-attachment: fixed !important;
+  }
+  .panel-img3 {
+    height: 100vh;
+    min-height: 1200px;
+    background-attachment: fixed !important;
+  }
+  .panel-img4 {
+    height: 100vh;
+    min-height: 1200px;
+    background-attachment: fixed !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .left-content {
+    width: 59.853%;
+  }
+  .right-content {
+    width: 40.082%;
+  }
+}
+
+@media (max-width: 767px) {
+  .left-content {
+    width: 100%;
+  }
+  .right-content {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
